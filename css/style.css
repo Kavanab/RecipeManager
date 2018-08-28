@@ -1,0 +1,251 @@
+/* css reset starts */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* css reset ends */
+
+body {
+    height: 100%;
+    background-color: cornflowerblue;
+}
+
+.row {
+    position: relative;
+}
+
+.wrapper-layout {
+    width: 99%;
+    height: 640px;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+.header {
+    height: 100px;
+    width: 99%;
+    border-bottom: 1px solid rgb(1, 5, 8);
+    margin-left: 6px;
+    line-height: 2;
+}
+
+.ingredients {
+    margin-top: 20px;
+}
+
+.ingredients-text {
+    height: 30px;
+    margin-left: 10px;
+}
+
+.ingredients-labeltext {
+    margin-top: 20px;
+}
+
+.button-submit {
+    margin-top: 10px;
+}
+
+.ingredients-labeltext div {
+    margin-top: 6px;
+}
+
+.ingredients-labeltext label {
+    width: 100px;
+}
+
+.ingredients h1,
+.ingredients-text h1 {
+    font-size: 24px;
+}
+
+.ingredients-labe input[type="text"] {
+    text-align: left;
+}
+
+.ingredients-label label {
+    font-size: 18px;
+    margin-top: 20px;
+    display: table;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.home-message h1 {
+    text-align: center;
+    font-size: 50px;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 230px;
+}
+
+.section-left {
+    border-right: 1px solid rgb(7, 11, 15);
+    height: 543px;
+}
+
+.recipe-list {
+    margin: 50px;
+}
+
+.recipe-list select {
+    border: 1px solid #2E75B6;
+    font-size: 22px;
+    width: 200px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+
+.recipe-list .btn-success {
+    background-color: #ffffff !important;
+    color: rgb(3, 8, 14) !important;
+    font-size: 22px !important;
+    border: 1px solid #2E75B6 !important;
+    width: 200px;
+}
+
+.ng-cloak {
+    display: none !important;
+}
